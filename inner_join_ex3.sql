@@ -1,0 +1,1 @@
+SELECT * FROM A FULL JOIN B ON A.key = B.key;

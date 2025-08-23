@@ -1,0 +1,1 @@
+SELECT  col1, col2, count(*) from Table_one GROUP BY col1, col2 HAVING COUNT(*) >1;

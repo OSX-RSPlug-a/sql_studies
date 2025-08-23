@@ -1,0 +1,1 @@
+SELECT * FROM A INNER JOIN B ON A.key = B.key;
