@@ -1,0 +1,1 @@
+SELECT Department, SUM(Amount) as TotalSales FROM Sales WHERE Department = 'Electronics' GROUP BY Department HAVING SUM(Amount) > 10000;
